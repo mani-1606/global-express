@@ -13,6 +13,7 @@ const navItems = [
   { to: '/transfer', label: 'Transfer' },
   { to: '/apply-loan', label: 'Loan' },
   { to: '/refer', label: 'Refer' },
+  { to: '/about', label: 'About' },
   { to: '/login', label: 'Login' },
 ];
 

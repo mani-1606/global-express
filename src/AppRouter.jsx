@@ -6,6 +6,8 @@ import Home from './components/Home';
 import Balance from './components/Balance';
 import Cards from './components/Cards';
 import OfferDetails from './components/OfferDetails';
+import CardSecurity from './components/CardSecurity';
+import MembershipBenefits from './components/MembershipBenefits';
 import Contact from './components/Contact';
 import ApplyLoan from './components/ApplyLoan';
 import ReferFriend from './components/ReferFriend';
@@ -31,8 +33,8 @@ const AppRouter = () => (
   <Route path="/cards" element={<Cards />} />
   <Route path="/about" element={<About />} />
   <Route path="/offers/latest" element={<OfferDetails type="Latest Offers" />} />
-  <Route path="/offers/membership" element={<OfferDetails type="Membership Benefits" />} />
-  <Route path="/offers/security" element={<OfferDetails type="Card Security" />} />
+  <Route path="/offers/membership" element={<MembershipBenefits />} />
+  <Route path="/offers/security" element={<CardSecurity />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/apply-loan" element={<ApplyLoan />} />
         <Route path="/refer" element={<ReferFriend />} />
