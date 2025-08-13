@@ -1,3 +1,49 @@
+@media (max-width: 600px) {
+  .amex-slider, .amex-slide {
+    width: 100vw;
+    height: 220px;
+    min-height: 120px;
+    max-height: 220px;
+  }
+  .amex-hero-section {
+    padding: 2rem 0.5rem 1.2rem 0.5rem;
+    border-radius: 0 0 18px 18px;
+  }
+  .amex-hero-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.7rem;
+  }
+  .amex-hero-content h1 {
+    font-size: 1.3rem;
+  }
+  .amex-tagline {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .amex-cta-btn {
+    font-size: 0.95rem;
+    padding: 0.5em 1.2em;
+  }
+  .amex-services-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.7rem !important;
+    margin-top: 1.2rem !important;
+  }
+  .amex-cards-section {
+    margin: 1.2rem 0 0.7rem 0;
+  }
+  .amex-cards-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+    max-width: 98vw;
+    padding: 0 0.2rem;
+  }
+  .amex-card {
+    padding: 1rem 0.7rem 0.7rem 0.7rem;
+    min-height: 120px;
+  }
+}
 .amex-slider {
   width: 100vw;
   height: 100vh;
