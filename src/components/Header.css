@@ -1,0 +1,55 @@
+
+.phonepe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 0 0 18px 18px;
+}
+.logo {
+  font-size: 1.7rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.logo-svg {
+  width: 2.2rem;
+  height: 2.2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo-icon {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+.nav-bar {
+  display: flex;
+  gap: 1.2rem;
+}
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 10px;
+  transition: background 0.2s, color 0.2s;
+  font-weight: 500;
+}
+.nav-link:hover, .nav-link.active {
+  background: rgba(255,255,255,0.13);
+  color: #ffe082;
+}
+.nav-icon {
+  font-size: 1.3rem;
+  margin-bottom: 0.1rem;
+}
+.nav-label {
+  font-size: 0.95rem;
+}
